@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*
+Theme Name: djblog
+Theme URI: http://www.admin122.com/
+Description: 本WP主题设计开发由: <a href="http://www.admin122.com/">大江网络</a>.
+Version: 1.0
+Author: 大江网络
+Author URI: http://www.admin122.com/
+*/
+/* Global CSS */
+/* CSS Document */
+
+
+        .aaa li{float:left; padding:5px;}
+		a:link{color: #222222;}
+		.wp-pagenavi{
+	overflow:hidden;
+	text-align:center;
+	width:100%;margin-top: 5px;
+}
+
+.page_navi{overflow:hidden;width:100%;text-align:center}
+.page_navi a{height:28px;border:1px solid #DDD;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;color:#888;text-decoration:none;line-height:28px;margin:2px;padding:3px 8px}
+.page_navi a:hover,.page_navi a.current{border:1px solid #FFBB76;color:#FF7200;font-weight:bolder}

@@ -1,0 +1,99 @@
+
+/* give the contact forma a width */
+.ContactForm {
+}
+
+/* turn off the defualt border on the fieldset */
+.ContactForm fieldset {
+border-style: none;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+/* setup the style for the fill-in areas */
+.MainInfoFieldset input,
+.MainInfoFieldset textarea {
+display: block;
+width: 250px;
+padding: 5px;
+margin-bottom: 5px;
+float: left;
+background: #f4f4f4;
+border: 2px #CCCCCC solid;
+font-family: Helvetica, Arial, sans;
+font-size: 12px;
+color:#404040;
+}
+.MainInfoFieldset .Invalid {
+border-color: #993300;
+}
+.MainInfoFieldset .Valid {
+border-color: #CCCCCC;
+}
+
+/* setup the style for the labels */
+.MainInfoFieldset label {
+display: block;
+width: 180px;
+padding: 5px;
+margin-bottom: 5px;
+clear: both;
+float: left;
+/* if you want boxed in labels
+background: #DDDDDD;
+border: 2px #CCD0CC solid;
+border-right-style: none;
+*/
+font-family: Helvetica, Arial, sans;
+font-size: 13px;
+font-weight: bold;
+color: #666666;
+}
+
+/* style the submit button */
+.SubmitButtonFieldset {
+display: block;
+width: 192px;
+float: left;
+clear: both;
+}
+.SubmitButtonFieldset input {
+display: block;
+padding: 5px;
+margin: 0 0 15px 0;
+/* if you want to re-style the button
+border-right-style: none;
+border-style: none;
+border: 2px #CCD0CC solid;
+background: #DFE1DF;
+*/
+text-align: left;
+font-family: Helvetica, Arial, sans;
+font-size: 13px;
+font-weight: bold;
+color: #666666;
+}
+
+/* style the response field */
+.ServerResponseFieldset {
+display: block;
+width: 250px;
+float: left;
+position: relative;
+left: -2px;
+}
+.ServerResponseFieldset label {
+display: none;
+}
+.ServerResponseFieldset input {
+width: 250px;
+display: block;
+padding: 5px;
+margin-bottom: 15px;
+background: #f4f4f4;
+border: 2px #CCCCCC solid;
+font-family: Helvetica, Arial, sans;
+font-size: 13px;
+font-weight: bold;
+color:#666666;
+}

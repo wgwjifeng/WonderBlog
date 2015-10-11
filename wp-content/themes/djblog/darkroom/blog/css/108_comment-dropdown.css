@@ -1,0 +1,265 @@
+
+.CommentMargins{
+margin:10px;
+}
+
+/*---------------------------------------------- COMMENT BAR BEGIN ----------------------------------*/
+.CommentBar{
+background:#666666;
+height:18px;
+margin-top:16px;
+}
+
+.Bookmarks{
+float:right;
+margin:0 14px 0 0;
+line-height:18px;
+}
+.Bookmarks img{
+margin:0 3px 0 3px;
+}
+
+.CommentCount{
+float:left;
+margin:0 0 0 15px;
+line-height:18px;
+}
+/*---------------------------------------------- COMMENT BAR END ----------------------------------*/
+
+
+
+/*---------------------------------------------- DRROPDOWN STRUCTURE BEGIN ----------------------------------*/
+.CommentSpace{
+margin: 20px 0 0 0;
+}
+
+.CommentActions{
+}
+/*---------------------------------------------- DRROPDOWN STRUCTURE END ----------------------------------*/
+
+
+
+/*---------------------------------------------- DRROPDOWNS BUTTONS BEGIN ----------------------------------*/
+.CommentActions{
+clear:both;
+}
+
+.ShowComments{
+padding:0 0 0 15px;
+}
+
+.ShowCommentsContainer{
+background:#D4F3F0;
+height:20px;
+line-height:20px;
+}
+
+.ShowCommentForm, .ShowTrackbacks, .SendToFriend a{
+float:left;
+padding:0 60px 0 15px;
+display:block;
+height:30px;
+line-height:30px;
+}
+
+.ShowComments a, .ShowCommentForm a, .ShowTrackbacks a, .SendToFriend a{
+cursor:pointer;
+}
+
+.ShowComments a:link, .ShowComments a:hover, .ShowComments a:visited,
+.ShowCommentForm a:link, .ShowCommentForm a:hover, .ShowCommentForm a:visited,
+.ShowTrackbacks a:link, .ShowTrackbacks a:hover, .ShowTrackbacks a:visited,
+.SendToFriend a:link, .SendToFriend a:hover, .SendToFriend a:visited{	
+}
+/*---------------------------------------------- DRROPDOWNS BUTTONS END ----------------------------------*/
+
+
+
+/*---------------------------------------------- DRROPDOWNS BEGIN ----------------------------------*/
+.CommentsWrapper, .CommentFormWrapper, .TrackbacksWrapper{
+display:none;
+clear:both;
+height:135px; 
+overflow:auto;
+width:100%;
+border:1px solid #D1EEE8;
+}
+
+#CommentFormWrapperContainer .CommentFormWrapper{
+display:block;
+}
+
+/*---------------------------------------------- DRROPDOWNS END ----------------------------------*/
+
+
+
+
+/*---------------------------------------------- COMMENT DETAIL BEGIN ----------------------------------*/
+.CommentsContainer{
+
+}
+
+.CommentInner{
+margin:0 0 11px 0;
+}
+
+.CommentAuthor{
+}
+
+.CommentDate{
+}
+
+.CommentBody, .CommentBody p{
+display:inline;
+}
+/*---------------------------------------------- COMMENT DETAIL END ----------------------------------*/
+
+
+
+/*---------------------------------------------- COMMENT FORM BEGIN ----------------------------------*/
+
+.CommentForm {
+position: relative;
+margin:  10px 0 0 0;
+clear:both;
+}
+
+
+/*SET WIDTHS*/
+.CommentForm .CommenterGreeting{
+margin:0 0 8px 3px;
+}
+
+.CommentForm .CommentFormInputWrapper{
+width:40%;
+}
+
+.CommentForm .CommentFormTextArea{
+width:57.7%;
+margin:0 0 0 10%;
+}
+
+.CommentFormInputWrapper input,
+.CommentFormInputWrapper .InputSpacer, 
+.CommentForm fieldset .CommentFormTextArea textarea{
+width:100%
+}
+
+
+/*SET HEIGHTS*/
+.CommentFormInputWrapper input,
+.CommentFormInputWrapper label{
+height:20px;
+line-height:20px;
+}
+
+.CommentForm textarea {
+height: 68px;
+}
+
+
+/*SHOULDN'T NEED TO CHANGE*/
+.CommentForm fieldset .UserInformation div.CommentFormInput, 
+.CommentForm fieldset .CommentFormTextArea {
+position: relative;
+margin: 0 0 0 0;
+}
+
+.CommentFormInputWrapper label {
+top: 0;
+left: 0;
+z-index: 0;
+margin: 0 0 0 4px;
+}
+
+.CommentFormInputWrapper input,
+.CommentFormInputWrapper textarea {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+border: none;
+opacity: .7;
+filter: alpha(opacity=70);
+color: #666;
+font-size: 11px;
+border: 1px #000 solid;
+}
+
+.CommentFormInputWrapper .InputSpacer{
+display:block;
+height: 4px;
+}
+
+.SubmitWrapper{
+float: left;
+}
+
+.CommentForm .SubmitWrapper div {
+}
+
+.SubmitWrapper input {
+margin:5px 0 0 0;
+}
+
+.SubmitWrapper input:hover {
+cursor:pointer;
+}
+
+.CommentMemory{
+float:left;
+}
+
+.CommentMemory label {
+margin:7px 0 0 10px;
+}
+
+.CommentMemory input {
+margin:7px 0 0 0;
+}
+
+
+/*POSITION THE TEXTBOX*/
+.CommentForm fieldset .CommentFormTextArea {
+position: absolute;
+top: 0px;
+left: 41.8%;
+}
+
+
+/*MISC. CHANGES*/
+.CommentForm fieldset {
+border-style:none;
+padding:0 0 0 0;
+}
+
+.CommentForm input:focus,
+.CommentForm textarea:focus,
+.CommentForm .Focused {
+border-color: #888;
+opacity: 1;
+filter: alpha(opacity=100);
+}
+
+.CommentForm .Valid {
+opacity: 1;
+filter: alpha(opacity=100);
+}
+
+
+/*---------------------------------------------- COMMENT FORM END ----------------------------------*/
+
+
+
+/*---------------------------------------------- TRACKBACKS BEGIN ----------------------------------*/
+.Trackbacks{
+}
+
+.TrackbacksInfo{
+font-size:10px;
+}
+
+.TrackbacksContent{
+}
+/*---------------------------------------------- TRACKBACKS END ----------------------------------*/
+

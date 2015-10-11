@@ -1,0 +1,114 @@
+
+/*---------------------------------------------- NAVIGATION BEGIN ----------------------------------*/
+
+#navigation-container{
+width:100%;
+background:#aaaaaa;
+height:30px;
+}
+
+
+#navigation{
+/*float:right;
+margin:0 46px 0 46px;*/
+}
+
+#navigation ul {
+display:block;
+list-style: none;
+z-index:1000;
+}
+
+#navigation a {
+display: block;
+line-height:30px;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+text-decoration:none;
+}
+
+#navigation a:hover {
+}
+
+#navigation li {
+float: left;
+}
+
+#navigation .nav-gap{
+margin:0 10px 0 10px;
+}
+
+#navigation li ul {
+position: absolute;
+left: -999em;
+height: auto;
+width: 184px;
+margin: 0 0 0 0;
+padding: 0 0 0 0; 	
+background:#C0371B;
+}
+
+#navigation li ul#about-dropdown{
+width:100px;
+margin:0 0 0 -2px;
+}
+
+
+#navigation li ul#about-dropdown li{
+width:117px;
+}
+
+#navigation li ul li a {
+display: block;
+text-align:left;
+line-height: 18px;
+text-decoration: none;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+background:#C0371B;
+margin:0 0 0 8px;
+}
+
+#navigation li ul li a:hover{
+}
+
+#navigation li li {
+width: 184px;
+border-top:1px solid #fff;
+}
+
+#navigation li ul a {
+}
+
+#navigation li ul ul {
+}
+
+#navigation li:hover ul ul, #navigation li:hover ul ul ul, #navigation li.sfhover ul ul, #navigation li.sfhover ul ul ul {
+left: -999em;
+}
+
+#navigation li:hover ul,#navigation li:hover ul, #navigation li li:hover ul, #navigation li li li:hover ul, #navigation li.sfhover ul, #navigation li li.sfhover ul, #navigation li li li.sfhover ul {
+left: auto;
+}
+
+#navigation li:hover, #navigation li.sfhover {
+}
+
+/*---------------------------------------------- NAVIGATION END ----------------------------------*/
+
+
+
+/*---------------------------------------------- HEADING PHRASE BEGIN ----------------------------------*/
+
+#header-phrase a:link,#header-phrase a:visited,#header-phrase a:hover{
+float:left;
+width:250px;
+line-height:30px;
+margin:0 0 0 140px;
+}
+
+/*---------------------------------------------- HEADING PHRASE END ----------------------------------*/
+
+
+
+

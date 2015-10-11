@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+body, li{
+/*font-family:Arial, Helvetica, sans-serif;
+*/font-family:"微软雅黑";
+font-stretch:"condensed";
+font-size:12px;
+color:#222222;
+list-style: none;
+}
+
+a:link, a:hover, a:visited{
+color: #222222;
+text-decoration:none;
+}
+
+p{
+font-family:"微软雅黑";
+font-size:12px;
+color:#666;
+line-height:24px
+}
+
+
+
+
+/*==============================================  NAVIGATION BEGIN  ==================================*/
+#header-phrase a, #navigation a {
+font-family:"微软雅黑";
+font-weight: normal;
+font-size: 17px;
+text-decoration: none;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+#navigation a:hover {
+color: #fff;
+}
+
+#navigation li ul li a {
+font-size:16px;
+}
+
+#navigation li ul li a:hover{
+}
+/*--------------------- HEADING PHRASE BEGIN ---------------*/
+
+
+
+/*--------------------- HEADING PHRASE END ---------------*/
+/*==============================================  NAVIGATION END  ==================================*/
+
+#twitter-title{
+text-transform: uppercase;
+font-size: 14px;
+color: #222222;
+font-weight:bold;
+}
+
+#twitter-time{
+color: #c0371b;
+font-size:10px;
+}
+
+#search-this-blog{
+font-size: 10px;
+text-transform: uppercase;
+color: #707066;
+}
+
+
+
+
+/*==============================================  ENTRY SUMMARY BEGIN  ==================================*/
+.Title a, .Title a:hover, .TitleEntry, .TrackbacksCommentsReplace{
+font-family:"微软雅黑";
+text-decoration: none;
+color: #444444
+;
+text-align: center;
+font-size: 18px;
+line-height:20px;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.DateStamp{
+font-family:"微软雅黑";
+text-decoration: none;
+color: #000;
+font-size: 15px;
+line-height:20px;
+font-weight:normal;
+}
+
+.EntryContent, .PageBody{
+font-family:"微软雅黑";font-size: 12px;
+color: #646464;
+}
+/*==============================================  ENTRY SUMMARY END  ==================================*/
+
+
+
+
+
+/*============================================== COMMENT BAR BEGIN ==================================*/
+.CommentCount{
+font-family:"微软雅黑";color:blue;
+font-size:11px;
+text-transform:lowercase;
+}
+/*============================================== COMMENT BAR END ==================================*/
+
+
+
+
+
+/*==============================================  DRROPDOWN BUTTONS BEGIN  ==================================*/
+.ShowCommentForm a:link, .ShowCommentForm a:hover, .ShowCommentForm a:visited,
+.ShowTrackbacks a:link, .ShowTrackbacks a:hover, .ShowTrackbacks a:visited,
+.SendToFriend a:link, .SendToFriend a:hover, .SendToFriend a:visited{
+font-family:"微软雅黑";font-size: 11px;
+color:#808080;
+text-transform:uppercase;
+}
+
+.ShowComments a:link, .ShowComments a:hover, .ShowComments a:visited{
+color:#000;
+text-transform:uppercase;
+font-family:"微软雅黑";font-size: 11px;
+}
+/*==============================================  DRROPDOWN BUTTONS END  ==================================*/
+
+
+
+
+
+/*==============================================  DRROPDOWNS BEGIN  ==================================*/
+.CommentsWrapper, .CommentsFormWrapper, .TrackbacksWrapper{
+font-family:"微软雅黑";color:#808080;
+font-size:12px;
+}
+/*==============================================  DRROPDOWNS END  ==================================*/
+
+
+
+
+
+/*==============================================  COMMENT DETAIL BEGIN  ==================================*/
+.CommentsContainer{
+font-family:"微软雅黑";color:#000;
+font-size:12px;
+}
+
+.CommentAuthor, .CommentAuthor a:link, .CommentAuthor a:visited{
+color: #000;
+font-weight:bold;
+}
+
+.CommentAuthor a:link, .CommentAuthor a:visited, .CommentAuthor a:hover{
+text-decoration:underline;
+color: #c0371b;
+}
+
+.CommentDate{
+}
+
+.CommentBody, .CommentBody p{
+}
+/*==============================================  COMMENT DETAIL END  ==================================*/
+
+
+
+
+
+/*============================================== COMMENT FORM BEGIN ==================================*/
+.CommentForm {
+color:#808080;
+font-family:"微软雅黑";font-size: 12px;
+}
+
+.CommentForm .CommenterGreeting{
+}
+
+.CommentFormInputWrapper label {
+color:black;
+}
+
+.CommentFormInputWrapper input,
+.CommentFormInputWrapper textarea {
+font-family:"微软雅黑";color:#808080;
+}
+
+.SubmitWrapper input {
+color:#808080;
+}
+
+.SubmitWrapper input:hover {
+color:black;
+}
+
+.CommentMemory{
+}
+
+/*============================================== COMMENT FORM END ==================================*/
+
+
+
+
+
+/*============================================== TRACKBACKS BEGIN ==================================*/
+.Trackbacks, .TrackbacksInfo{
+font-size: 12px;
+color:#808080;
+font-family:"微软雅黑";font-size: 12px;
+}
+/*============================================== TRACKBACKS END ==================================*/
+
+
+
+
+
+/*==============================================  FOOTER BEGIN  ==================================*/
+#footer-container{
+font-size:12px;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+/*--------------------- COPYRIGHT BEGIN ---------------*/
+
+#copyright{
+font-family:"微软雅黑";color:#000;
+font-size:10px;
+text-transform:uppercase;
+}
+
+#copyright a:link, #copyright a:visited{
+color:#000;
+}
+
+#copyright a:hover{
+color:#C0371B;
+}
+
+/*--------------------- COPYRIGHT END ---------------*/
+
+/*--------------------- PAGED ARCHIVES BEGIN ---------------*/
+
+#more-pages{
+font-family:"微软雅黑";color:#fff;
+font-size:12px;
+text-transform:uppercase;
+}
+
+#the-word-page{
+padding-right:4px;
+}
+
+#page-numbers{
+color:#fff;
+}
+
+#page-numbers a{
+color:#fff;
+}
+
+#rss a:link, #rss a:hover, #rss a:visited{
+font-family:"微软雅黑";color:#fff;
+font-size:12px;
+}
+
+/*--------------------- PAGED ARCHIVES END ---------------*/
+/*==============================================  FOOTER BEGIN  ==================================*/
+
+
+
+
+
+/*==============================================  TEMPLATE ENTRY BEGIN ==================================*/
+.EntryMeta{
+color:#808080;
+text-align: center;
+}
+
+#trackbacks-comments h2{
+text-decoration: none;
+color: #81C8EF;
+font-size: 18px;
+font-weight:bold;
+}
+
+
+#trackbacks-comments{
+color:#808080;
+}
+
+.TrackbacksCommentsReplace{
+}
+/*==============================================  TEMPLATE ENTRY END  ==================================*/
+
+
+
+
+
+/*==============================================  TEMPLATE ALL BEGIN  ==================================*/
+
+#archives-body, #comment-response, .PageBody{
+clear:both;
+margin:20px 0px 20px 0px;
+}
+
+/*--------------------- COMMENT RESPONSE BEGIN -------------*/
+
+#comment-response h1{
+font-family:"微软雅黑";
+font-size:22px;
+color:#808080;
+}
+/*--------------------- COMMENT RESPONSE END ---------------*/
+/*--------------------- SEARCH RESULTS BEGIN ---------------*/
+
+h1.SearchResultsHeader{
+font-family:"微软雅黑";
+font-size:25px;
+color:#808080;
+}
+
+/*--------------------- SEARCH RESULTS END ---------------*/
+/*==============================================  TEMPLATE ALL END  ==================================*/
+

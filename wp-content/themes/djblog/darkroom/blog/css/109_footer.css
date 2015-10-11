@@ -1,0 +1,52 @@
+
+#footer-container{
+clear:both;
+/*padding:0 0 30px 0;
+margin:0 45px 0 45px;
+*/background:#fff;
+padding-top:0 0 0 0;
+}
+
+
+/*---------------------------------------------- COPYRIGHT BEGIN ----------------------------------*/
+#copyright{
+margin:20px 0 0 0;
+text-align:right;
+}
+
+#copyright a:link, a:visited{
+}
+
+#copyright a:hover{
+}
+
+/*---------------------------------------------- COPYRIGHT END ----------------------------------*/
+
+
+
+/*---------------------------------------------- PAGED ARCHIVES BEGIN ----------------------------------*/
+#more-pages{
+height:25px;
+line-height:25px;
+background:#222222;
+}
+
+#more-pages-inner{
+margin:0 0 0 15px;
+}
+
+#the-word-page{
+padding-right:4px;
+}
+
+#page-numbers{
+}
+
+#page-numbers a{
+}
+
+#rss{
+float:right;
+margin:0 15px 0 0;
+}
+/*---------------------------------------------- PAGED ARCHIVES END ----------------------------------*/
